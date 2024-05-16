@@ -27,6 +27,7 @@
 		12CF37AC2BF5C0A7008A1C3E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF37AB2BF5C0A7008A1C3E /* NetworkService.swift */; };
 		12CF37AE2BF5C2BC008A1C3E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF37AD2BF5C2BC008A1C3E /* HomeViewModel.swift */; };
 		12CF37B02BF5C49E008A1C3E /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF37AF2BF5C49E008A1C3E /* PreviewProvider.swift */; };
+		12CF37B22BF5E47E008A1C3E /* CurrencyConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF37B12BF5E47E008A1C3E /* CurrencyConvertor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		12CF37AB2BF5C0A7008A1C3E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		12CF37AD2BF5C2BC008A1C3E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		12CF37AF2BF5C49E008A1C3E /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		12CF37B12BF5E47E008A1C3E /* CurrencyConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvertor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				12CF37AB2BF5C0A7008A1C3E /* NetworkService.swift */,
+				12CF37B12BF5E47E008A1C3E /* CurrencyConvertor.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				12CF37752BF50332008A1C3E /* CurrencyCalculatorApp.swift in Sources */,
 				12CF37912BF50A1F008A1C3E /* Color.swift in Sources */,
 				12CF37952BF526AA008A1C3E /* CurrencySelectionAndTextFieldView.swift in Sources */,
+				12CF37B22BF5E47E008A1C3E /* CurrencyConvertor.swift in Sources */,
 				12CF378C2BF506D8008A1C3E /* NumberPadButton.swift in Sources */,
 				12CF37A12BF530B9008A1C3E /* CountryListView.swift in Sources */,
 			);
