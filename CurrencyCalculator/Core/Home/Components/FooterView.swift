@@ -9,7 +9,24 @@ import SwiftUI
 
 struct FooterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack {
+            IconView(systemName: "arrow.clockwise", 
+                     color: .theme.secondaryText)
+                .rotationEffect(Angle(degrees: 60))
+            Spacer()
+            
+            VStack {
+                Text("15/05/2024, 20:39")
+                    .foregroundColor(.theme.green)
+                Text("1 NPR = 0.0075 USD")
+                    .foregroundColor(.theme.grey)
+            }
+            Spacer()
+            IconView(systemName: "info.circle", color: .theme.secondaryText)
+        }
+        .padding()
+        
     }
 }
 

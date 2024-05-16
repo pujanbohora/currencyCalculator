@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+//                    NavigationView {
+//                        NumberPadGridView()
+//                            .navigationBarHidden(true)
+//                    }
+//                    .background(Color(Color.theme.background))
+        Text("Content View")
     }
 }
 
 #Preview {
     ContentView()
+        .previewLayout(.sizeThatFits)
 }

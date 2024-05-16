@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct IconView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  let systemName: String
+  let color: Color
+
+  var body: some View {
+    Image(systemName: systemName)
+      .resizable()
+      .aspectRatio(contentMode: .fit)
+      .foregroundColor(color)
+      .frame(width: 25, height: 25)
+  }
 }
 
+
 #Preview {
-    IconView()
+    IconView(systemName: "info", color: .theme.secondaryText)
 }
